@@ -1,1 +1,2 @@
 # My Portfolio
+Hello my name is Victor and I am new to front-end web development. I am learning everyday and hope that my craving for knowledge will help to fulfill my dream of becoming a junior front-end web dev within the coming year!
