@@ -1,30 +1,91 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Victor Del Valle</title>
-    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  </head>
-  <body>
+<html>
+<head>
+	<title>Victor Del Valle</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<i class="fab fa-free-code-camp fa-3x"></i>
+		<nav id="navbar">
+			<a class="nav-link" href="#welcome-section">Home</a>
+			<a class="nav-link" href="#Bio">Bio</a>
+			<a class="nav-link" href="#projects">Portfolio</a>
+			<a class="nav-link" href="#Contact">Contact</a>
+		</nav>
+	</header>
 
-    <header>
-      <i class="fab fa-free-code-camp fa-3x"></i>
-      <nav id="navbar">
-        <a class="nav-link" href="#welcome-section">Home</a>
-        <a class="nav-link" href="#Bio">Bio</a>
-        <a class="nav-link" href="#projects">Portfolio</a>
-        <a class="nav-link" href="#Contact">Contact</a>
-      </nav>
-    </header>
+	<section id="welcome-section">
+		<div class="welcome-content">
+			<h1>Victor Del Valle</h1>
+			<p>	The Future Starts Now</p>
+		</div>
+	</section>
 
-    <section id="welcome-section">
-  		<div class="welcome-content">
-  			<h1>Victor Del Valle</h1>
-  			<p>	The Future Starts Now</p>
-  		</div>
-  	</section>
+	<section id="Bio">
+			<div>
+				<h2>A Brief Introduction</h2>
+				<p class="bio-description">Highly motivated front-end developer who pursues the right presentation every time. I started learning programming on my own at age 15, utilizing any information I could get my hands on. Driven and curious, I now find myself specialized in creating stunning web content that other technology providers can't manage.</p>
+			</div>
+			<div>
+				<img class="headshot" src="headshot-copy.jpg" alt="headshot">
+			</div>
+	</section>
 
-    <h2>A Brief Introduction</h2>
-    	<p>I am a highly motivated front-end developer who pursues the right presentation every time. I started learning programming on my own at age 15 with a basic computer course that taugh html. I now find myself utilizing any information I can get my hands on to improve my foundational knowledge of code</p>
-  </body>
+	<section id="skills">
+				<h2>What I do</h2>
+					<div>
+						<i class="fas fa-pencil-ruler fa-3x"></i>
+						<h3>Design</h3>
+						<p>Website design is just as important as the product being advertised. Every detail matters. Like an artist carefully observing their muse, I listen closely to the needs of my clients and begin to produce striking results. </p>
+					</div>
+
+					<div>
+						<i class="fas fa-code fa-3x"></i>
+						<h3>Development</h3>
+						<p>Every developer needs to know their basics of HTML, CSS, and Javascript. However, this is where I stand apart. I excel in multiple languages whether that would be Python, Ruby on Rails, or Flutter. This means I can bring much more than an interactive webpage to the table.</p>
+					</div>
+
+					<div>
+						<i class="fas fa-lock-open fa-3x"></i>
+						<h3>Open Source</h3>
+						<p>Contributing to open-source is a way to give back to the community. Open-source is the punch list behind any software and for me I enjoy a good problem to solve.</p>
+					</div>
+
+					<div>
+						<i class="fas fa-globe fa-3x"></i>
+						<h3>The World</h3>
+						<p>Besides coding, designing, and being a avid photographer, I continue life as a university student looking to impact the world in any way I can!</p>
+					</div>
+
+	</section>
+
+	<section id="projects">
+		<h2 class="projecthead">These are some of my projects..</h2>
+		<div class="project-tile"><a href="https://codepen.io/vdelvalle11/full/MqYRed/" target="_blank"><img class="project-pic" src="TributePage.png" alt="Elon Musk Tribute Page"></a>Elon Musk Tribute Page</div>
+		<div class="project-tile"><a href="https://codepen.io/vdelvalle11/pen/GXpWYy" target="_blank"><img class="project-pic" src="SurveyForm.png" alt="Simple survey form"></a>Simple survey form</div>
+		<div class="project-tile"><a href="https://codepen.io/vdelvalle11/pen/rZLGpE" target="_blank"><img class="project-pic" src="ProductLandingPage.png" alt="Product Landing Page"></a>Product Landing Page</div>
+		<div class="project-tile"><a href="https://codepen.io/vdelvalle11/pen/LJbGYe" target="_blank"><img class="project-pic" src="TechnicalDoc.png" alt="Javascript Technical Document Page"></a>Javascript Technical Document Page</div>
+	</section>
+
+	<section id="Contact">
+		<i class="fab fa-telegram-plane fa-5x"></i>
+		<h2>Are you interested?</h2>
+		<p>Whether you have an interesting project or you just want to say hi, send me a message!</p>
+		<button>Message Me</button>
+	</section>
+
+	<footer>
+		<div>
+			<a id="profile-link" class="social-link" href="https://twitter.com/vdelvalle0" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+			<a class="social-link" href="https://github.com/vdelvalle11" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+			<a class="social-link" href="https://www.facebook.com/vdelvalle11" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+			<a class="social-link" href="https://www.instagram.com/mindless_morphine/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+		</div>
+		<div>
+			<p class="trademark">© Created by Victor Del Valle</p>
+		</div>
+	</footer>
+</body>
 </html>
