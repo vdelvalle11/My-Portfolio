@@ -84,3 +84,150 @@ h1{
 	font-weight: 700;
 	margin-bottom: 0;
 }
+
+h1 + p{
+	text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+#Bio{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	text-align: center;
+	line-height: 160%;
+	background-color: #f2f2f2;
+}
+
+h2{
+	margin: 0 auto;
+	font-weight: 300;
+    font-size: 60px;
+    line-height: 200%;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+}
+
+h2 + p{
+	max-width: 800px;
+	text-align: center;
+	margin: auto;
+}
+
+.bio-description:after {
+    background: #615966;
+    height: 1px;
+    width: 40%;
+    content: "";
+    display: block;
+    margin: 29px auto 0 auto;
+}
+
+.headshot{
+ 	padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 40px;
+    width: 270px;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#skills{
+	margin: auto;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+#skills > h2{
+	width: 100vw;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+#skills > div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 30px 100px;
+	min-height: 300px;
+	width: 300px;
+}
+
+#projects{
+	margin: auto;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #f2f2f2;
+}
+.projecthead{
+	width: 100vw;
+	padding: 30px 300px;
+	margin: auto;
+}
+
+.project-tile{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 60px 100px;
+	border: 2px solid #81e0fc;
+	font-weight: bold;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-pic{
+	height: 200px;
+	width: 300px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #81e0fc;
+}
+
+#Contact{
+	min-width: 100vw;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	align-items: center;
+	line-height: 160%;
+	background-color: white;
+	min-height: 60vh;
+}
+
+button{
+	margin-top: 20px;
+	border-radius: 4px;
+	background-color: #e7e7e7;
+	padding: 10px;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	background-color: #7c7f80;
+	margin-top: 10px;
+	padding: 20px 0;
+}
+
+footer>div{
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	margin: 0 auto;
+	color: white;
+}
+
+.trademark{
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+a > i{
+	color: white;
+}
